@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Sum{
+    public static void main(String []args){
+        Scanner sc=new Scanner(System.in);
+         int num=Math.abs(sc.nextInt());
+         if(num<10)
+         System.out.println("single digit");
+         else if(num<100)
+         System.out.println("Double digit");
+         else if(num<1000)
+         System.out.println("three digit");
+         else
+         System.out.println("more than 3 digits");
+         }
+    
+}
